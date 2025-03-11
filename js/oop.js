@@ -84,7 +84,7 @@ function Hamburger(bun, bunNum, vegetables, cheese, sauce, meatType, meatQuantit
     this.pattyQuantity = meatQuantity;
     this.isSeperatedByBun = (isSeperatedByBun) ? "seperated by one of the buns" : "not seperated by one of the buns";
     this.description = function(){
-        return `A hamburger with ${this.bunNum} ${this.bun} bun. The hamburger has ${this.vegetables} for vegetables; ${this.cheese} for cheeses; and a mixture of ${this.sauce} for the sauce. The patty is ${this.pattyType} and there are ${this.pattyQuantity} patties ${this.isSeperatedByBun}.`;
+        return `A hamburger with ${this.bunNum} ${this.bun} buns. The hamburger has ${this.vegetables} for vegetables; ${this.cheese} for cheeses; and a mixture of ${this.sauce} for the sauce. The patty is ${this.pattyType} and there are ${this.pattyQuantity} patties ${this.isSeperatedByBun}.`;
     }
 }
 
